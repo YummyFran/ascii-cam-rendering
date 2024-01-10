@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-height: 100vh;
+}
+
+body > * {
+    height: 95%;
+    flex-grow: 0;
+    overflow: hidden;
+    font-family: monospace;
+    width: 95vh;
+    line-height: 0.67;
+}
+
+#camera {
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    display: none;
+}
